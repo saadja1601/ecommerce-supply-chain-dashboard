@@ -29,6 +29,7 @@ across 5 global markets.
 ---
 
 ## Project Structure
+```
 ecommerce-supply-chain-dashboard/
 ├── data/
 │   ├── dim_categories.csv       # 51 product categories
@@ -49,18 +50,13 @@ ecommerce-supply-chain-dashboard/
 │   ├── 05_delivery_status.png
 │   └── dashboard_screenshot.png
 └── README.md
+```
 
-## Steps Taken
-1. **Data Cleaning** — Removed PII columns (email, password, name), fixed Latin-1 
-   encoding, dropped <1% missing rows from 180,519 raw records
-2. **Star Schema Design** — Split flat file into 6 normalized tables 
-   (1 fact table + 5 dimension tables) using Python Pandas
-3. **EDA in Python** — 5 charts analyzing revenue by market, late delivery 
-   rates, top product categories, monthly trends, and delivery status breakdown
-4. **SQL Analysis** — 5 MySQL business queries covering revenue share by market, 
-   category profitability, shipping mode performance, and delivery impact
-5. **Power BI Dashboard** — 4 KPI cards + 4 visuals built on a star schema 
-   model with DAX measures for revenue, orders, late delivery rate, and profit margin
 ---
 
-## Project Structure
+## Steps Taken
+1. **Data Cleaning** — Removed PII columns (email, password, name), fixed Latin-1 encoding, dropped <1% missing rows from 180,519 raw records
+2. **Star Schema Design** — Split flat file into 6 normalized tables (1 fact table + 5 dimension tables) using Python Pandas
+3. **EDA in Python** — 5 charts analyzing revenue by market, late delivery rates, top product categories, monthly trends, and delivery status breakdown
+4. **SQL Analysis** — 5 MySQL business queries covering revenue share by market, category profitability, shipping mode performance, and delivery impact
+5. **Power BI Dashboard** — 4 KPI cards + 4 visuals built on a star schema model with DAX measures for revenue, orders, late delivery rate, and profit margin
