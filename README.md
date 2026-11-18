@@ -23,6 +23,16 @@ across 5 global markets.
 
 ---
 
+## Recommendations
+Late delivery is measured with the dataset's `late_delivery_risk` flag. This analysis shows where lateness is concentrated. It does not explain the cause on its own, so the points below are actions to test.
+
+1. **Fix First Class first.** It has the worst late rate (95.3%), so customers paying for the fastest tier are the most let down. Either reset the promised delivery time for this tier or review how these orders are fulfilled and shipped.
+2. **Use Standard Class as the baseline.** It is the most reliable tier (38.1% late). Compare how its orders are scheduled and shipped against First Class to find what is different.
+3. **Treat it as a company-wide process problem.** The 54.8% late rate is consistent across every market, so a fix focused on one region will not solve it. Start with shipping-mode scheduling.
+4. **Pilot in the biggest market.** Europe brings in the most revenue ($10.87M, 29.6%), so improvements there protect the most sales.
+
+---
+
 ## Dashboard Preview
 ![Dashboard](images/dashboard_screenshot.png)
 
