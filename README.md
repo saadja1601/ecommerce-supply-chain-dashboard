@@ -1,25 +1,25 @@
 # Global E-Commerce Supply Chain Dashboard
 **Tools:** Python · MySQL · Power BI  
-**Dataset:** DataCo Smart Supply Chain (180,516 orders · 5 global markets · 2015–2018)  
+**Dataset:** DataCo Smart Supply Chain (180,516 order line items, about 66K orders · 5 global markets · 2015–2018)  
 **Raw Dataset:** [Kaggle — DataCo Smart Supply Chain](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
 
 ---
 
 ## Business Problem
 A global e-commerce company is struggling with delivery performance —
-over half of all orders arrive late, threatening customer retention and revenue.
+over half of all order lines arrive late, threatening customer retention and revenue.
 This analysis identifies where, why, and how severely the supply chain is failing
 across 5 global markets.
 
 ---
 
 ## Key Findings
-- **$36.78M total revenue** across 180K+ orders in 5 global markets
-- **54.8% of all orders were delivered late** — consistent across every market, signaling a systemic operational problem
+- **$36.78M total revenue** across about 66K orders (180K line items) in 5 global markets
+- **54.8% of order lines were delivered late**, measured per line item, consistent across every market, signaling a systemic operational problem
 - **Europe leads revenue at $10.87M** (29.6% of total); USCA contributes $5.07M (13.8%)
 - **First Class shipping has a 95.3% late delivery rate** — premium customers are the most let down
-- **Standard Class is the most reliable** at only 38.1% late — the cheapest option performs best
-- **Fishing dominates product categories** at $6.93M; top 5 are all sports/outdoor products
+- **Standard Class is the most reliable** at only 38.1% late
+- **Fishing dominates product categories** at $6.93M; the top 4 are all sports and fitness products
 
 ---
 
